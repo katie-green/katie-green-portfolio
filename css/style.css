@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;500;600;900&display=swap');
+
+/*Katie Green
+    April 26, 2022*/
+    
+  body{
+      font-family: 'Poppins', "Times New Roman", "Sarif";
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px;
+      background-image: url(/images/geoBackgroundsmall.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      backdrop-filter: blur(2px);
+  }  
+  
+  .intro{
+      border: rgb(46, 23, 129) 3px solid;
+      border-radius: 10%;
+      text-align: center;
+      padding: 30px;
+  }
+  
+  h1{
+      background: linear-gradient(to left, #B288CC, #3e36b0e3, #B288CC) ;
+      color: #171717;
+      font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+      font-weight: bold;
+      letter-spacing: 1px;
+      width: 100%
+  }
+  
+ navbar {
+      color: #090d14;
+      background: linear-gradient(to left, #8cbdc0, #256f94, #8cbdc0) ;
+      text-align: center;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 1px;
+  }
+  h2{
+      background: linear-gradient(to left, #B288CC, #3e36b0e3, #B288CC) ;
+      text-align: center;
+      color: #010101;
+      font-family: 'Poppins', sans-serif;
+      letter-spacing: 1px;
+      font-size: 25px;
+      width: 100%
+  }
+  
+  ul{
+      background: linear-gradient(to left, #8cbdc0, #256f94, #8cbdc0) ;
+  }
+  
+  li{
+      text-align: center;
+  }
+  
+  li a{
+      text-align: center;
+      display: inline;
+      color: whitesmoke;
+  }
+  
+  li:hover{
+      background-color: #9378ec;
+  }
+  
+  li a:visited{
+      color: hsl(256.4,74.2%,26.2%);
+  }
+  
+  li:active{
+      background-color: #b6e6ea;
+  }
+  
+  li a:link{
+      color: #b6daea;
+  }
+  
+  p{
+      padding: 20px;
+      font-weight: bold;
+  }
+  
+  footer{
+      display: inline-block;
+      line-height: 60px;
+      flex-direction:column;  
+      text-align: center;
+      margin-top:10px;
+      width: 700px;
+      height: 85px;
+      padding-bottom: 5.2rem;
+      position: relative;
+  }
+
+.carousel-caption {
+    background: #332c4a;
+    border-radius: 30px;
+}

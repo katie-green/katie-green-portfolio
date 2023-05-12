@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body{
+    height: 100vh;
+    font-family: 'Zen Dots', 'Times New Roman', Times, serif;
+    text-align: center; 
+    background: linear-gradient(#a8eba6, #74dc78, #358a37);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#grid{
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}

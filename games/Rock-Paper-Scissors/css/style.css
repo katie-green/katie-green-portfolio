@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+body{
+    background: linear-gradient(#a8eba6, #74dc78, #358a37);
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Zen Dots', cursive, sarif;
+    text-align: center;
+    color: #375814;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+button{
+    font-family: 'Zen Dots', cursive, sarif;
+    background-color: #97E236;
+}
